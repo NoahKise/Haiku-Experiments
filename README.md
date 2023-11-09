@@ -11,3 +11,4 @@ This is an example repo featuring a basic setup for a shape tracker project
 - Install required dependencies by running the command `npm install`
 - To build the project and serve all files to the "dist" directory, run the command `npm run build`
 - To run the dev server, run the command `npm run start`
+-
