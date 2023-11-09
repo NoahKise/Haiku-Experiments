@@ -41,4 +41,8 @@ describe('Haiku.prototype.syllableChecker', () => {
         const preWord = new Haiku("prevail");
         expect(preWord.syllableChecker()).toEqual(["pre", "vail"]);
     });
+    // test('should continue to iterate through every syllable-splitting check until poemLetterArray.length < 3', () => {
+    //     const iterativeWord = new Haiku("responsibility");
+    //     expect(iterativeWord.syllableChecker()).toEqual(["re", "spon", "si", "bi", "li", "ty"]);
+    // })
 });
